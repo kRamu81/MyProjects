@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Codechef {
+public class GuessTheNumber {
 
     // Method to generate a random number between 1 and 100
     public static int getRandomNumber() {
