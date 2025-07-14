@@ -25,7 +25,7 @@ This app fetches real-time weather and air quality data based on the user’s ci
 
 ## 🖥️ Preview
 
-![Weather App UI](./screenshots/demo.png) <!-- Replace this with your actual screenshot -->
+![Weather App UI](demo.png) <!-- Replace this with your actual screenshot -->
 
 ## 🧑‍🏫 Workshop Info
 
