@@ -1,4 +1,4 @@
-# 🌦️ Real-Time Weather App
+.# 🌦️ Real-Time Weather App
 
 A sleek and responsive weather application built using **HTML**, **CSS**, and **JavaScript**. This project was created as part of a hands-on workshop conducted by **Harsh Prakash**, Software Engineer & Instructor at Scaler & SST.
 
@@ -25,9 +25,10 @@ This app fetches real-time weather and air quality data based on the user’s ci
 
 ## 🖥️ Preview
 
-![Weather App UI](demo.png) <!-- Replace this with your actual screenshot -->
+ <!-- Replace this with your actual screenshot -->
 
 ## 🧑‍🏫 Workshop Info
+![Weather App UI](demo.png)
 
 **Event**: Hands-on Coding Session – Build a Real-Time Weather App  
 **Instructor**: Harsh Prakash  
