@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="sidebar">
+            <div class="logo">
+                <i class="fas fa-cloud-sun"></i>
+                <span>Weather App</span>
+            </div>
+            <div class="search-container">
+                <input type="text" id="location-input" placeholder="Search location...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="favorites-list">
+                <h3>Favorites</h3>
+                <ul id="favorites-container">
+                    <!-- Favorites will be added here dynamically -->
+                </ul>
+            </div>
+            <div class="user-settings">
+                <button id="theme-toggle"><i class="fas fa-moon"></i> Dark Mode</button>
+                <button id="units-toggle"><i class="fas fa-ruler"></i> °C / °F</button>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="current-weather">
+                <div class="location-info">
+                    <h1 id="current-location">Loading...</h1>
+                    <p id="current-date">-- -- ----</p>
+                </div>
+                <div class="weather-display">
+                    <div class="temperature">
+                        <span id="current-temp">--</span>
+                        <span class="unit">°C</span>
+                    </div>
+                    <div class="weather-condition">
+                        <div id="weather-icon" class="weather-icon">
+                            <i class="fas fa-question"></i>
+                        </div>
+                        <p id="weather-description">--</p>
+                    </div>
+                </div>
+                <div class="weather-details">
+                    <div class="detail-item">
+                        <i class="fas fa-wind"></i>
+                        <span id="wind-speed">-- km/h</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-tint"></i>
+                        <span id="humidity">--%</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-compress-alt"></i>
+                        <span id="pressure">-- hPa</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="forecast-container">
+                <h2>5-Day Forecast</h2>
+                <div class="forecast-cards" id="forecast-cards">
+                    <!-- Forecast cards will be added here dynamically -->
+                </div>
+            </div>
+            
+            <div class="hourly-forecast">
+                <h2>Hourly Forecast</h2>
+                <div class="hourly-container" id="hourly-container">
+                    <!-- Hourly forecast will be added here dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="notification" id="notification"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
