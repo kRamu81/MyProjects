@@ -38,7 +38,7 @@ This app fetches real-time weather and air quality data based on the user’s ci
 **Eligibility**: Class 12 graduates of 2024 & 2025  
 
 Participation certificate:
-![weather App UI](certificate.png)
+![weather App UI](IMG_1756212400399.jpg)
 
 ## 📦 Installation
 
