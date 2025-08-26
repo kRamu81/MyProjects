@@ -37,6 +37,9 @@ This app fetches real-time weather and air quality data based on the user’s ci
 **Time**: 5 PM – 7 PM IST  
 **Eligibility**: Class 12 graduates of 2024 & 2025  
 
+Participation certificate:
+![weather App UI](certificate.png)
+
 ## 📦 Installation
 
 ```bash
