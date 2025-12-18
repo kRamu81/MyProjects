@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class GuessTheNumber {
+public class NumberGuessingGame01 {
 
     // Method to generate a random number between 1 and 100
     public static int getRandomNumber() {
